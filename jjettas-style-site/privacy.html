@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Privacy Policy — Marcus Harris</title>
+<meta name="description" content="Privacy policy for marcusharris.example.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Anton&family=Archivo:ital,wght@0,400;0,500;0,600;0,700;1,400&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body data-page="legal">
+
+<div id="loader" aria-hidden="true">
+  <div class="num" id="loadNum">0%</div>
+  <div class="bar"><i id="loadBar"></i></div>
+  <div class="mono" style="color:var(--muted)">Loading experience</div>
+</div>
+
+<header>
+  <div class="wrap nav">
+    <a class="logo" href="index.html" data-bind="logo">MH<b>°8</b></a>
+    <nav class="nav-links">
+      <a href="index.html#moments">Moments</a>
+      <a href="foundation.html">Foundation</a>
+      <a href="partnerships.html">Partners</a>
+      <a href="index.html#contact">Contact</a>
+    </nav>
+    <a class="nav-cta" href="index.html#contact">Work with me</a>
+  </div>
+</header>
+
+<main>
+  <div class="page-hero slim">
+    <div class="wrap">
+      <p class="mono crumbs"><a href="index.html">Home</a><span>/</span>Privacy</p>
+      <h1 class="display">Privacy <em>Policy</em></h1>
+      <p class="mono" style="color:var(--muted);margin-top:14px">Last updated · January 2026</p>
+    </div>
+  </div>
+  <section style="padding-top:0">
+    <div class="wrap prose">
+      <h2>1. What we collect</h2>
+      <p>This site itself collects nothing automatically. If you contact us — via the partnership form or email — we receive the details you choose to share (name, brand, email, message) so we can reply.</p>
+      <h2>2. Photo edit mode</h2>
+      <p>The "Edit photos" feature stores your replacement images in your own browser's local storage. Those images never leave your device and are never sent to any server.</p>
+      <h2>3. What we don't do</h2>
+      <p>We don't sell personal information, run cross-site trackers, or share your details with advertisers. Analytics, if any, are aggregate and anonymous.</p>
+      <h2>4. Your rights</h2>
+      <p>Ask us to review, correct, or delete anything you've sent us — email <b>team@example.com</b> and we'll handle it promptly.</p>
+      <h2>5. Changes</h2>
+      <p>If this policy changes materially, we'll update the date above and note the change here for 30 days.</p>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="wrap foot">
+    <span data-bind="footer">© 2026 Marcus Harris. All rights reserved.</span>
+    <div class="links"><a href="privacy.html">Privacy</a><a href="terms.html">Terms</a><a href="partnerships.html">Press kit</a></div>
+    <span class="made">Built in the same spirit · Edit freely</span>
+  </div>
+</footer>
+
+<div id="editbar">
+  <button id="editReset" class="hidden">Reset</button>
+  <button id="editToggle">✎ Edit photos</button>
+</div>
+<div id="editHint">EDIT MODE — click any photo to replace it · changes auto-save in this browser</div>
+<input type="file" id="filePick" accept="image/*" style="display:none">
+<script src="assets/js/app.js"></script>
+</body>
+</html>

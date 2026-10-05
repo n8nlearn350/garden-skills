@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Partnerships — Marcus Harris</title>
+<meta name="description" content="A curated roster of brand partners — from signature footwear to game-day fuel.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Anton&family=Archivo:ital,wght@0,400;0,500;0,600;0,700;1,400&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body data-page="partners">
+
+<div id="loader" aria-hidden="true">
+  <div class="num" id="loadNum">0%</div>
+  <div class="bar"><i id="loadBar"></i></div>
+  <div class="mono" style="color:var(--muted)">Loading experience</div>
+</div>
+
+<header>
+  <div class="wrap nav">
+    <a class="logo" href="index.html" data-bind="logo">MH<b>°8</b></a>
+    <nav class="nav-links">
+      <a href="index.html#moments">Moments</a>
+      <a href="foundation.html">Foundation</a>
+      <a href="partnerships.html" class="active">Partners</a>
+      <a href="index.html#contact">Contact</a>
+    </nav>
+    <a class="nav-cta" href="index.html#contact">Work with me</a>
+  </div>
+</header>
+
+<main>
+  <div class="page-hero">
+    <div class="wrap">
+      <p class="mono crumbs"><a href="index.html">Home</a><span>/</span>Partnerships</p>
+      <p class="mono kicker">Brand partners</p>
+      <h1 class="display">Partner<em>ships</em></h1>
+      <p class="lede">A curated roster of brands — from signature footwear to game-day fuel. Every partnership is hands-on, never a logo slap.</p>
+    </div>
+  </div>
+
+  <section style="padding-top:0">
+    <div class="wrap">
+      <div class="p-feature reveal">
+        <div class="pf-img ph"><span class="slot-tag">partner-hero</span><img data-photo="partner-hero" src="assets/cleats-feature.jpg" alt="Signature cleats"></div>
+        <div class="pf-body">
+          <h3><small>★ Signature partnership</small>Apex Athletics</h3>
+          <p>The signature partnership. Custom game-day cleats, design sessions at Apex HQ, and a real say in where the footwear goes next. Three signature colorways and counting.</p>
+          <div class="stat-row" style="margin-top:22px">
+            <div class="stat"><b>3</b><span>Signature colorways</span></div>
+            <div class="stat"><b>4<small> YRS</small></b><span>Together</span></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="p-grid" style="grid-template-columns:repeat(3,1fr)">
+        <div class="p-card reveal"><div class="p-logo">VOLT<i>＋</i></div><p>Official hydration partner — sideline visibility, campaign spots, and game-day rotation since 2021.</p></div>
+        <div class="p-card reveal"><div class="p-logo">GRID<i>LINE</i></div><p>National campaigns — from the tunnel walk to the big screen. Two spots, 40M+ views each.</p></div>
+        <div class="p-card reveal"><div class="p-logo">NOVA<i>◍</i></div><p>Performance eyewear — from training visors to the off-field shades that broke the internet.</p></div>
+        <div class="p-card reveal"><div class="p-logo">PULSAR<i>♪</i></div><p>Game-day arrivals run through Pulsar — the sound of the tunnel, custom iced-out pairs.</p></div>
+        <div class="p-card reveal"><div class="p-logo">OZONE<i>◌</i></div><p>Recovery and sleep partner — keeping the engine tuned through all 17 weeks.</p></div>
+        <div class="p-card reveal"><div class="p-logo">KICK<i>98</i></div><p>Community retail partner — camp gear, drive supplies, and hometown pop-ups.</p></div>
+      </div>
+
+      <div class="ph hero-banner reveal" style="margin-top:18px"><span class="slot-tag">partner-studio</span><img data-photo="partner-studio" src="assets/partner-studio.jpg" alt="Co-design studio session"></div>
+
+      <div class="logo-marquee" aria-hidden="true">
+        <div class="track">
+          <span>APEX <i>✦</i></span><span>VOLTAIC <i>✦</i></span><span>GRIDLINE <i>✦</i></span><span>NOVA <i>✦</i></span><span>PULSAR <i>✦</i></span><span>OZONE <i>✦</i></span>
+          <span>APEX <i>✦</i></span><span>VOLTAIC <i>✦</i></span><span>GRIDLINE <i>✦</i></span><span>NOVA <i>✦</i></span><span>PULSAR <i>✦</i></span><span>OZONE <i>✦</i></span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="foundation" id="become" style="padding-top:clamp(56px,8vw,100px)">
+    <div class="wrap become-duo">
+      <div class="reveal">
+        <p class="mono kicker">Become a partner</p>
+        <h2 class="sec-title" style="font-size:clamp(40px,5.5vw,72px)">Let's build<br><em>your chapter</em></h2>
+        <p class="sec-desc" style="margin-top:16px;max-width:440px">Category-exclusive deals, co-created product, and content that actually performs. Tell us about your brand — real replies within 48 hours.</p>
+        <div class="contact-rows">
+          <div><span>Partnerships</span><b>partners@example.com</b></div>
+          <div><span>Press</span><b>press@example.com</b></div>
+          <div><span>Management</span><b>team@example.com</b></div>
+        </div>
+      </div>
+      <form id="partnerForm" class="reveal" novalidate>
+        <label>Your name<input name="name" type="text" placeholder="Jordan Lee" required></label>
+        <label>Brand / company<input name="brand" type="text" placeholder="Acme Athletics" required></label>
+        <label>Email<input name="email" type="email" placeholder="you@brand.com" required></label>
+        <label>Partnership type
+          <select name="type">
+            <option>Signature / product collaboration</option>
+            <option>Campaign / content</option>
+            <option>Foundation sponsor</option>
+            <option>Appearance / speaking</option>
+            <option>Something else</option>
+          </select>
+        </label>
+        <label>Tell us more<textarea name="message" rows="4" placeholder="Goals, timeline, budget range…"></textarea></label>
+        <button class="btn" type="submit" style="border:0">Send inquiry →</button>
+        <p class="form-note" id="formNote" role="status"></p>
+      </form>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="wrap foot">
+    <span data-bind="footer">© 2026 Marcus Harris. All rights reserved.</span>
+    <div class="links"><a href="privacy.html">Privacy</a><a href="terms.html">Terms</a><a href="partnerships.html">Press kit</a></div>
+    <span class="made">Built in the same spirit · Edit freely</span>
+  </div>
+</footer>
+
+<div id="editbar">
+  <button id="editReset" class="hidden">Reset</button>
+  <button id="editToggle">✎ Edit photos</button>
+</div>
+<div id="editHint">EDIT MODE — click any photo to replace it · changes auto-save in this browser</div>
+<input type="file" id="filePick" accept="image/*" style="display:none">
+<script src="assets/js/app.js"></script>
+</body>
+</html>
